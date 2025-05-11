@@ -29,7 +29,7 @@ pipeline {
         stage('Run Application') {
             steps {
                 // Start the JAR application
-                sh 'MyMavenGuavaApp-1.0-SNAPSHOT-jar-with-dependencies.jar'
+                sh 'MyMavenGuavaApp-1.0-SNAPSHOT.jar'
             }
         }
 
